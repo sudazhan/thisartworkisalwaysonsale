@@ -34,7 +34,7 @@ contract ArtSteward {
     
     // 5% patronage
     uint256 patronageNumerator = 50000000000;
-    uint256 patronageDenominator = 1000000000000;
+    uint256 patronageDenominator = 10000000000000;
 
     enum StewardState { Foreclosed, Owned }
     StewardState public state;
